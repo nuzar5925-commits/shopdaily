@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daily Outfit — Katalog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="brand">
+      <!-- Logo: pastikan images/logo.png ada -->
+      <img src="images/shop.jpg" alt="Daily Outfit" class="brand-logo"
+           onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2244%22 height=%2244%22><rect rx=%2210%22 width=%22100%25%22 height=%22100%25%22 fill=%23fff/><text x=%2250%25%22 y=%2255%25%22 text-anchor=%22middle%22 font-family=%22Arial%22 font-size=%2216%22 font-weight=%22700%22 fill=%23EE4D2D%22>DO</text></svg>'">
+      <div class="title">
+        <strong>DAILY OUTFIT</strong>
+        <small>Cari Nomornya di Atas ⬆️</small>
+      </div>
+    </div>
+
+    <div class="searchbar">
+      <input id="searchInput" type="search" placeholder="Cari nomor / nama produk…" />
+      <button id="clearBtn" aria-label="Bersihkan">×</button>
+    </div>
+
+    <div class="ranges">
+      <button class="chip range-btn" data-min="1801" data-max="1900">NO LINK 1801–1900</button>
+      <button class="chip range-btn" data-min="1901" data-max="2000">NO LINK 1901–2000</button>
+      <button class="chip outline range-btn" data-min="" data-max="">Lebih Banyak</button>
+    </div>
+  </header>
+
+  <!-- TOOLBAR -->
+  <section class="toolbar">
+    <div class="select-wrap">
+      <label for="sortSel">Urutkan</label>
+      <select id="sortSel">
+        <option value="id-desc">Terbaru (ID ↓)</option>
+        <option value="id-asc">Terlama (ID ↑)</option>
+        <option value="price-asc">Harga Terendah</option>
+        <option value="price-desc">Harga Tertinggi</option>
+      </select>
+    </div>
+    <div class="badge hint">Tap kartu/tombol “Lihat” untuk buka Shopee</div>
+  </section>
+
+  <!-- GRID PRODUK -->
+  <main>
+    <div id="grid" class="product-grid" aria-live="polite"></div>
+  </main>
+
+  <!-- TEMPLATE KARTU -->
+  <template id="cardTpl">
+    <a class="card" target="_blank" rel="noopener">
+      <div class="thumb">
+        <div class="shimmer"></div>
+        <img loading="lazy" alt="">
+        <span class="discount" hidden>-0%</span>
+      </div>
+      <div class="info">
+        <p class="name"></p>
+        <div class="price-row">
+          <span class="price"></span>
+          <span class="strike" hidden></span>
+        </div>
+        <div class="meta">
+          <span class="ship">Gratis Ongkir</span>
+          <span class="sold"></span>
+        </div>
+      </div>
+      <div class="cta">Lihat</div>
+    </a>
+   </template>
+
+  <!-- script javascript -->
+  <script src="script.js"></script>
+  <script>
+    // panggil fungsi render dari script.js
+    render(PRODUCTS);
+  </script>
+  
+</body>
+</html>
