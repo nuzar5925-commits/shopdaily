@@ -1,22 +1,112 @@
 /* ====== DATA PRODUK (edit sesuai kebutuhan) ====== */
 const PRODUCTS = [
-  {
-    id: 3001,
-    name: "Sepatu Knit Abu",
-    price: 159000,
-    price_before: 229000,
+         {
+    id: 12,
+    name: "Baju pria kece | Kaos distro oversize pria | Kaos casual | Atasan Unisex: Motif Angka NO.88 Gaya Streetwear",
+    price: 51000,
+    price_before: 110000,
     sold: 102,
-    image: "./images/sepatu.jpg",   // harus ada di /images
-    url: "https://shopee.co.id/"       // ganti ke link Shopee produkmu
+    image: "./images/produk6.jpg",   // harus ada di /images
+    url: "https://s.shopee.co.id/7V6umfYryb?share_channel_code=1"       // ganti ke link Shopee produkmu
+  },
+    {
+    id: 11,
+    name: "T-Shirt Oversize White Loss Kaos Putih",
+    price: 77000,
+    price_before: 200000,
+    sold: 102,
+    image: "./images/produk5.jpg",   // harus ada di /images
+    url: "https://s.shopee.co.id/4q69bhJPj3?share_channel_code=1"       // ganti ke link Shopee produkmu
+  },
+     {
+    id: 10,
+    name: "Simplimoods - Kaos Boxy Tee Fit Oversize Tshirt Emotions Cream Ivory  Katun",
+    price: 61000,
+    price_before: 159000,
+    sold: 102,
+    image: "./images/produk4.jpg",   // harus ada di /images
+    url: "https://s.shopee.co.id/6KuxOQ2xiT?share_channel_code=1"       // ganti ke link Shopee produkmu
+  },
+    {
+    id: 9,
+    name: "Exhale Tshirt Company White Polo",
+    price: 105000,
+    price_before: 200000,
+    sold: 102,
+    image: "./images/produk3.jpg",   // harus ada di /images
+    url: "https://s.shopee.co.id/6KuxONFedx?share_channel_code=1"       // ganti ke link Shopee produkmu
   },
   {
-    id: 2131,
-    name: "Asym Knit Elegant",
-    price: 89000,
-    price_before: 129000,
+    id: 8,
+    name: "KKONTENER ACDC BLUE OVERSIZE TSHIRT BLACK",
+    price: 108000,
+    price_before: 150000,
+    sold: 102,
+    image: "./images/produk2.jpg",   // harus ada di /images
+    url: "https://s.shopee.co.id/50PZnsVI95?share_channel_code=1"       // ganti ke link Shopee produkmu
+  },
+  {
+    id: 7,
+    name: "STARCROSS Kaos Pria - FLYING ASTRONAUT - Black",
+    price: 115000,
+    price_before: 188000,
     sold: 206,
-    image: "images/asym.jpg",
-    url: "https://shopee.co.id/"
+    image: "./images/produk1.jpg",
+    url: "https://s.shopee.co.id/9zoFkdWEp7?share_channel_code=1"
+  },
+      {
+    id: 6,
+    name: "NVSR Long Cargo Pants Krem Stretch",
+    price: 77000,
+    price_before: 200000,
+    sold: 102,
+    image: "./images/produk12.jpg",   // harus ada di /images
+    url: "https://s.shopee.co.id/2ViEs7iAKn?share_channel_code=1"       // ganti ke link Shopee produkmu
+  },
+      {
+    id: 5,
+    name: "Hammerstout - Celana Cargo Slim Straight - Combat Slim Type-2",
+    price: 77000,
+    price_before: 200000,
+    sold: 102,
+    image: "./images/produk11.jpg",   // harus ada di /images
+    url: "https://s.shopee.co.id/8pcIPjQII4?share_channel_code=1"       // ganti ke link Shopee produkmu
+  },
+      {
+    id: 4,
+    name: "Hammerstout - Celana Cargo Reguler Fit - Combat Loose",
+    price: 77000,
+    price_before: 200000,
+    sold: 102,
+    image: "./images/produk10.jpg",   // harus ada di /images
+    url: "https://s.shopee.co.id/40X2enRcTp?share_channel_code=1"       // ganti ke link Shopee produkmu
+  },
+      {
+    id: 3,
+    name: "Carnos Rivers Celana Cargo Panjang Pria Reguler Cream",
+    price: 77000,
+    price_before: 200000,
+    sold: 102,
+    image: "./images/produk9.jpg",   // harus ada di /images
+    url: "https://s.shopee.co.id/9UrzCsGdHh?share_channel_code=1"       // ganti ke link Shopee produkmu
+  },
+      {
+    id: 2,
+    name: "CELANA JOGGER SWEATPANTS | JOGGER PRIA WANITA | CELANA JOGGER UNISEX | SWEATPANTS JOGGER | CELANA JOGER | CELANA TRAINING | CELANA PANJANG TRAINING | JOGGER GYM | CELANA OLAHRAGA",
+    price: 77000,
+    price_before: 200000,
+    sold: 102,
+    image: "./images/produk8.jpg",   // harus ada di /images
+    url: "https://s.shopee.co.id/gGagbSFEw?share_channel_code=1"       // ganti ke link Shopee produkmu
+  },
+      {
+    id: 1,
+    name: "Mnst | Short Pants | Celana Pendek Cargo | Velove",
+    price: 77000,
+    price_before: 200000,
+    sold: 102,
+    image: "./images/produk7.jpg",   // harus ada di /images
+    url: "https://s.shopee.co.id/2ViErwDLJ1?share_channel_code=1"       // ganti ke link Shopee produkmu
   },
 ];
 
