@@ -57,8 +57,8 @@ const PRODUCTS = [
       {
     id: 6,
     name: "NVSR Long Cargo Pants Krem Stretch",
-    price: 77000,
-    price_before: 200000,
+    price: 150000,
+    price_before: 350000,
     sold: 102,
     image: "./images/produk12.jpg",   // harus ada di /images
     url: "https://s.shopee.co.id/2ViEs7iAKn?share_channel_code=1"       // ganti ke link Shopee produkmu
@@ -66,8 +66,8 @@ const PRODUCTS = [
       {
     id: 5,
     name: "Hammerstout - Celana Cargo Slim Straight - Combat Slim Type-2",
-    price: 77000,
-    price_before: 200000,
+    price: 175000,
+    price_before: 375000,
     sold: 102,
     image: "./images/produk11.jpg",   // harus ada di /images
     url: "https://s.shopee.co.id/8pcIPjQII4?share_channel_code=1"       // ganti ke link Shopee produkmu
@@ -75,8 +75,8 @@ const PRODUCTS = [
       {
     id: 4,
     name: "Hammerstout - Celana Cargo Reguler Fit - Combat Loose",
-    price: 77000,
-    price_before: 200000,
+    price: 154000,
+    price_before: 375000,
     sold: 102,
     image: "./images/produk10.jpg",   // harus ada di /images
     url: "https://s.shopee.co.id/40X2enRcTp?share_channel_code=1"       // ganti ke link Shopee produkmu
@@ -84,8 +84,8 @@ const PRODUCTS = [
       {
     id: 3,
     name: "Carnos Rivers Celana Cargo Panjang Pria Reguler Cream",
-    price: 77000,
-    price_before: 200000,
+    price: 159000,
+    price_before: 275000,
     sold: 102,
     image: "./images/produk9.jpg",   // harus ada di /images
     url: "https://s.shopee.co.id/9UrzCsGdHh?share_channel_code=1"       // ganti ke link Shopee produkmu
@@ -93,7 +93,7 @@ const PRODUCTS = [
       {
     id: 2,
     name: "CELANA JOGGER SWEATPANTS | JOGGER PRIA WANITA | CELANA JOGGER UNISEX | SWEATPANTS JOGGER | CELANA JOGER | CELANA TRAINING | CELANA PANJANG TRAINING | JOGGER GYM | CELANA OLAHRAGA",
-    price: 77000,
+    price: 37000,
     price_before: 200000,
     sold: 102,
     image: "./images/produk8.jpg",   // harus ada di /images
@@ -102,8 +102,8 @@ const PRODUCTS = [
       {
     id: 1,
     name: "Mnst | Short Pants | Celana Pendek Cargo | Velove",
-    price: 77000,
-    price_before: 200000,
+    price: 75000,
+    price_before: 195000,
     sold: 102,
     image: "./images/produk7.jpg",   // harus ada di /images
     url: "https://s.shopee.co.id/2ViErwDLJ1?share_channel_code=1"       // ganti ke link Shopee produkmu
